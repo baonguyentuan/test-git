@@ -1,0 +1,12 @@
+
+.img__banner{
+    max-height: 550px;
+    margin: auto;
+}
+.icon__banner{
+    transform: translate(0,-3px);
+    margin-right: 8px;
+    font-size: 28px;
+    background-color: greenyellow;
+    border-radius: 50%;
+}

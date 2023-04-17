@@ -1,0 +1,15 @@
+.btn__navbar{
+    @apply px-6 mr-6 font-semibold text-black
+}
+.btn__active{
+    color: #2b8aeb;
+    position: relative;
+}
+.btn__active::after{
+    content: "";
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border: 1px solid #2b8aeb;
+}
